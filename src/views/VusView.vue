@@ -10,7 +10,7 @@ import InfoCard from '@/components/InfoCard.vue' // Подставьте пут�
         <InfoCard :data="university" />
       </div>
       <div v-else>
-        <p>Университет не найден</p>
+        <p>Университет в Белгороде не найден</p>
       </div>
     </div>
   </div>
