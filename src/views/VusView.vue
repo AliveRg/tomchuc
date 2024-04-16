@@ -3,7 +3,7 @@ import InfoCard from '@/components/InfoCard.vue' // Подставьте пут�
 </script>
 <template>
   <div>
-    <div class="w-screen min-h-screen bg-[#4B1E19]">
+    <div class="w-screen min-h-screen bg-[#fff]">
       <h2 class="mx-auto text-[#EA592A] text-3xl font-bold text-center py-6">Вам подходит</h2>
 
       <div v-if="university">
@@ -76,9 +76,9 @@ export default {
           image: 'https://i.pinimg.com/564x/0f/48/c2/0f48c271a96601a7c2769be8e39b5037.jpg'
         },
         {
-          profession: 'Фитнес-тренер',
+          profession: 'Кладовщик',
           hobbies: ['Футбол', 'Плавание', 'Фехтование', 'Бокс', 'Танцы'],
-          image: 'https://i.pinimg.com/564x/0e/f6/5e/0ef65e2cae85fe97a60207ae4a3d5838.jpg'
+          image: 'https://i.pinimg.com/564x/ba/ad/ab/baadab0a88204046f0f96d5eab312d71.jpg'
         },
         {
           profession: 'Фотограф',
@@ -95,11 +95,7 @@ export default {
           hobbies: ['Танцы', 'Музыка', 'Пение'],
           image: 'https://i.pinimg.com/564x/f2/8c/af/f28caf2f35784ba3c17ce1bd90995d3f.jpg'
         },
-        {
-          profession: 'Садовник',
-          hobbies: ['Садоводство', 'Ботаника'],
-          image: 'https://i.pinimg.com/564x/af/21/21/af21211f8f7ac1001f5ab4a72a2f8be7.jpg'
-        },
+
         {
           profession: 'Археолог',
           hobbies: ['Археология', 'Ботаника'],
@@ -113,7 +109,8 @@ export default {
           otplat: 'от 49 бал.платно',
           budPlase: '3 130 мест бюджет',
           platPlase: '2 488 мест платно',
-          profession: ['Художник', 'Дизайнер', 'Программист', 'Финансист', 'Астроном']
+          profession: ['Художник', 'Дизайнер', 'Программист', 'Финансист', 'Астроном'],
+          img: ' https://smapse.ru/storage/2023/07/smapse-belgorodskij-gosudarstvennyj-institut-iskusstv-i-kul-tury.jpg'
         },
         {
           name: 'Белгородский государственный институт искусств и культуры',
@@ -121,15 +118,8 @@ export default {
           otplat: 'от 65 бал.платно',
           budPlase: '196 мест бюджет',
           platPlase: '157 мест платно',
-          profession: [
-            'Садовник',
-            'Фотограф',
-            'Астроном',
-            'Спелеолог',
-            'Музыкант',
-            'Археолог',
-            'Повар'
-          ]
+          profession: ['Фотограф', 'Астроном', 'Спелеолог', 'Музыкант', 'Археолог', 'Повар'],
+          img: ' https://lh3.googleusercontent.com/proxy/DH2Bzze1zJrWUBWSZQNf0TbD-9J5YK8f8bXMveSRi4phQAqcYEXNL7Uy2FZkzdvBeJmBqV95z5G-TOn2_Dv_eqAoFHuCejAN1BzCABuB-BL1FqA'
         },
         {
           name: 'Белгородский машиностроительный техникум',
@@ -137,7 +127,25 @@ export default {
           otplat: 'от 0 бал. платно',
           budPlase: '1365 мест бюджет',
           platPlase: 'нет платных мест',
-          profession: ['Садовник', 'Фотограф', 'Астроном', 'Спелеолог', 'Музыкант', 'Археолог']
+          profession: [
+            'Фотограф',
+            'Астроном',
+            'Спелеолог',
+            'Музыкант',
+            'Археолог',
+            'Сварщик',
+            'Кладовщик'
+          ],
+          img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlHjb_rRPszFP-lchjqB52lHFBgv9-IrB1ksnuRLQueAHTBimS_2MgFF4lrHECkNfW_Wg&usqp=CAU'
+        },
+        {
+          name: 'Белгородский юридический институт МВД России имени И. Д. Путилина',
+          otbud: 'от 76 бал. бюджет',
+          otplat: 'от 54 бал. платно',
+          budPlase: '1543 мест бюджет',
+          platPlase: '1343 платных мест',
+          profession: ['Юрист', 'Учитель', 'Спелеолог', 'Музыкант', 'Сварщик', 'Кладовщик'],
+          img: 'https://lh3.googleusercontent.com/proxy/embw_-tebpwlkg8LboWHYDLv_4razat3LuixcAXl6hbY7WA7hUp1_nNQJDux0r4nlQi57OY6pCarzFactOcZVWLUAyFPlIORj8MsdV6PKDQ5yCN9R42F32ZxkSUx3Z1ewlAvwEPY04u1JyfxVfzd--yW0sgboUzUkF5CzA=s1360-w1360-h1020'
         }
       ],
       university: []

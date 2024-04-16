@@ -1,12 +1,60 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import { SparklesIcon } from '@heroicons/vue/24/solid'
 </script>
 
 <template>
-  <div class="w-screen min-h-screen bg-[#4B1E19]">
-    <div class="container mx-auto p-4 flex flex-col justify-between">
-      <h1 class="mx-auto text-[#EA592A] text-3xl font-bold text-center py-6">Выбери свои хобби</h1>
+  <div class="w-screen min-h-screen bg-[#FFF5E0]">
+    <!-- Section: Design Block -->
+    <section class="mb-20 relative">
+      <!-- Navbar -->
+      <nav
+        class="relative flex w-full items-center justify-between py-2 shadow-sm shadow-neutral-700/10 dark:bg-neutral-800 dark:shadow-black/30 lg:flex-wrap lg:justify-start"
+        data-te-navbar-ref
+      >
+        <!-- Container wrapper -->
+        <div class="flex w-full flex-wrap items-center justify-between px-6">
+          <div class="flex items-center">
+            <div class="w-full px-5 py-2 text-[#EA592A] text-3xl font-bold">электронный ресурс</div>
+          </div>
+        </div>
+        <!-- Container wrapper -->
+      </nav>
 
+      <div class="bg-neutral-50 py-24 px-6 text-center dark:bg-neutral-900">
+        <h1 class="mt-2 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
+          Сайт для выбора профессии <br /><span class="text-[#FFC470]">выбери свое хобби</span>
+        </h1>
+        <a
+          class="mb-2 inline-block rounded bg-primary px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal bg-[#4793AF] text-[#FFC470] shadow-[0_4px_9px_-4px_#4793AF] transition duration-150 ease-in-out hover:bg-[#DD5746] hover:shadow-[0_8px_9px_-4px_#DD5746,0_4px_18px_0_#DD5746] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
+          data-te-ripple-init
+          data-te-ripple-color="light"
+          href="#start"
+          role="button"
+          >Начать</a
+        >
+        <RouterLink
+          class="inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 dark:hover:bg-neutral-800 dark:hover:bg-opacity-60"
+          data-te-ripple-init
+          data-te-ripple-color="light"
+          to="/dop/res"
+          role="button"
+          >Дополнительные ресурсы</RouterLink
+        >
+      </div>
+      <div class="absolute bottom-0 right-0 py-4 px-5 flex justify-end flex-col items-end">
+        <a href="https://tomchuk-project.netlify.app/">
+          <img src="@/assets/qr-code.svg" alt="" class="w-[100px]" />
+        </a>
+        <p class="text-[#141E46] font-semibold text-sm mb-3 text-end">
+          Тест для определения предрасположенностей к профессии <br />
+          нажмите или наведите камеру чтобы перейти по ссылке
+        </p>
+      </div>
+      <!-- Jumbotron -->
+    </section>
+    <!-- Section: Design Block -->
+    <div class="container mx-auto p-4 flex flex-col justify-between" id="start">
       <transition mode="out-in">
         <div v-if="visib" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           <div v-for="(item, index) in hobbies" :key="index" class="relative">
@@ -20,10 +68,11 @@ import { RouterLink, RouterView } from 'vue-router'
             />
             <label
               :for="'apartment_' + item"
-              class="inline-flex items-center justify-center w-full p-2 md:p-5 bg-[#FC8B5E] text-[#100102] rounded-lg cursor-pointer peer-checked:text-[#E0F4F5] peer-checked:rounded-full transition-all"
+              class="inline-flex items-center justify-center w-full p-2 md:p-5 bg-[#FC8B5E] text-[#fff] rounded-lg cursor-pointer peer-checked:bg-[#DD5746] peer-checked:rounded-full transition-all"
             >
-              <div class="block">
+              <div class="flex items-center">
                 <div class="w-full text-lg md:text-xl font-semibold">{{ item }}</div>
+                <SparklesIcon class="h-6 w-6 text-[#fff]" />
               </div>
             </label>
           </div>
@@ -39,16 +88,16 @@ import { RouterLink, RouterView } from 'vue-router'
                 class="w-[200px] md:w-[400px] h-[200px] md:h-[400px] max-w-xs rounded-lg object-cover"
               />
               <div class="text-center">
-                <h2 class="text-xl font-bold mt-4 mb-2">{{ prof.profession }}</h2>
+                <h2 class="text-xl font-bold text-[#fff] mt-4 mb-2">{{ prof.profession }}</h2>
                 <p class="text-sm text-gray-600 mb-4">Краткое описание профессии...</p>
                 <div class="space-x-4">
                   <router-link
-                    class="btn-choose bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 transition-colors"
+                    class="btn-choose bg-[#DD5746] text-white py-2 px-4 rounded hover:bg-green-600 transition-colors"
                     :to="{ name: 'vus', params: { vus: prof.profession } }"
                     >Выбрать</router-link
                   >
                   <router-link
-                    class="btn-details bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors"
+                    class="btn-details bg-[#FFC470] text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors"
                     :to="{ name: 'about', params: { params: prof.profession } }"
                     >Подробнее</router-link
                   >
@@ -62,14 +111,14 @@ import { RouterLink, RouterView } from 'vue-router'
       <h2
         v-if="visib"
         @click="selectProff"
-        class="mx-auto text-[#EA592A] text-3xl font-bold text-center py-6"
+        class="mx-auto text-[#141E46] text-3xl font-bold text-center py-6"
       >
         Далее
       </h2>
       <h2
         v-if="!visib"
         @click="clearloc"
-        class="mx-auto text-[#EA592A] text-3xl font-bold text-center py-6"
+        class="mx-auto text-[#141E46] text-3xl font-bold text-center py-6"
       >
         Начать заново
       </h2>
@@ -92,7 +141,6 @@ export default {
         'Плавание',
         'Кулинария',
         'Видеоигры',
-        'Садоводство',
         'Кино',
         'Поэзия',
         'Вязание',
@@ -100,13 +148,8 @@ export default {
         'Астрономия',
         'Фотография',
         'Рисование',
-        'Фрирайд',
-        'Серфинг',
-        'Паркур',
         'Скалолазание',
         'Фризби',
-        'Подводное плавание',
-        'Парашютный спорт',
         'Археология',
         'Театр',
         'Бокс',
@@ -127,7 +170,7 @@ export default {
         },
         {
           profession: 'Повар',
-          hobbies: ['Кулинария', 'Садоводство', 'Виноделие'],
+          hobbies: ['Кулинария', 'Виноделие'],
           image: 'https://i.pinimg.com/564x/19/8e/73/198e73da756eed4535a7b5d2515b2622.jpg',
           vus: ''
         },
@@ -180,9 +223,9 @@ export default {
           vus: ''
         },
         {
-          profession: 'Фитнес-тренер',
+          profession: 'Кладовщик',
           hobbies: ['Футбол', 'Плавание', 'Фехтование', 'Бокс', 'Танцы'],
-          image: 'https://i.pinimg.com/564x/0e/f6/5e/0ef65e2cae85fe97a60207ae4a3d5838.jpg',
+          image: 'https://i.pinimg.com/564x/ba/ad/ab/baadab0a88204046f0f96d5eab312d71.jpg',
           vus: ''
         },
         {
