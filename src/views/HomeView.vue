@@ -16,7 +16,7 @@ import { SparklesIcon } from '@heroicons/vue/24/solid'
         <div class="flex w-full flex-wrap items-center justify-between px-6">
           <div class="flex items-center">
             <div class="w-full px-5 py-2 text-[#EA592A] text-3xl font-bold">
-              Твои шаги к профессии
+              Профорииентационный сайт-путеводитель "Твои шаги к профессии"
             </div>
           </div>
         </div>
