@@ -47,7 +47,7 @@ import { RouterLink, RouterView } from 'vue-router'
             src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg"
             class="w-full align-middle transition duration-300 ease-linear"
           />
-          <a href="#!">
+          <a href="https://smartia.me/">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]"
             >
@@ -73,7 +73,7 @@ import { RouterLink, RouterView } from 'vue-router'
             src="https://mdbcdn.b-cdn.net/img/new/standard/city/045.jpg"
             class="w-full align-middle transition duration-300 ease-linear"
           />
-          <a href="#!">
+          <a href="https://profilum.ru/">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]"
             >
@@ -99,7 +99,7 @@ import { RouterLink, RouterView } from 'vue-router'
             src="https://mdbcdn.b-cdn.net/img/new/standard/city/047.jpg"
             class="w-full align-middle transition duration-300 ease-linear"
           />
-          <a href="#!">
+          <a href="https://proforientator.ru/">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]"
             >
@@ -125,7 +125,7 @@ import { RouterLink, RouterView } from 'vue-router'
             src="https://mdbcdn.b-cdn.net/img/new/standard/city/048.jpg"
             class="w-full align-middle transition duration-300 ease-linear"
           />
-          <a href="#!">
+          <a href="http://sps.mvtscol.edusite.ru/p50aa1.html">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]"
             >
@@ -153,7 +153,7 @@ import { RouterLink, RouterView } from 'vue-router'
             src="https://mdbcdn.b-cdn.net/img/new/standard/city/049.jpg"
             class="w-full align-middle transition duration-300 ease-linear"
           />
-          <a href="#!">
+          <a href="https://www.ucheba.ru/prof/search">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]"
             >
