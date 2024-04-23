@@ -64,21 +64,21 @@ export default {
           info: 'music'
         },
         {
-          profession: 'Спортсмен',
-          hobbies: ['Футбол', 'Плавание', 'Фехтование', 'Бокс', 'Фризби'],
-          image: 'https://i.pinimg.com/564x/af/24/fc/af24fcc359ad5810081e2ee4038c8179.jpg',
+          profession: 'Программист',
+          hobbies: ['Путешествия', 'Туризм', 'Походы'],
+          image: 'https://i.pinimg.com/564x/d6/c3/f8/d6c3f854c271e47d04cb8962058383c8.jpg',
           info: 'sport'
         },
         {
-          profession: 'Путешественник',
-          hobbies: ['Путешествия', 'Туризм', 'Походы'],
-          image: 'https://i.pinimg.com/564x/aa/ae/c0/aaaec00443c1cc724fad6d16e04a1ea0.jpg',
+          profession: 'Учитель',
+          hobbies: ['Футбол', 'Плавание', 'Фехтование', 'Бокс', 'Фризби'],
+          image: 'https://i.pinimg.com/564x/31/53/cf/3153cf93dfbafe04f788069ce706b9ef.jpg',
           info: 'putesh'
         },
         {
-          profession: 'Писатель',
+          profession: 'Юрист',
           hobbies: ['Литература', 'Поэзия'],
-          image: 'https://i.pinimg.com/564x/5c/80/2a/5c802a549ccd8cca4388a245ff5a48ee.jpg',
+          image: 'https://i.pinimg.com/564x/d5/01/30/d50130a2552e7ca947f42800006360c6.jpg',
           info: 'pisatel'
         },
         {
@@ -106,10 +106,9 @@ export default {
           info: 'slepolog'
         },
         {
-          profession: 'Фитнес-тренер',
+          profession: 'Кладовщик',
           hobbies: ['Футбол', 'Плавание', 'Фехтование', 'Бокс', 'Танцы'],
-          image: 'https://i.pinimg.com/564x/0e/f6/5e/0ef65e2cae85fe97a60207ae4a3d5838.jpg',
-          info: 'fitsport'
+          image: 'https://i.pinimg.com/564x/ba/ad/ab/baadab0a88204046f0f96d5eab312d71.jpg'
         },
         {
           profession: 'Фотограф',
@@ -124,15 +123,15 @@ export default {
           info: 'putevod'
         },
         {
-          profession: 'Танцор',
-          hobbies: ['Танцы', 'Музыка', 'Пение'],
-          image: 'https://i.pinimg.com/564x/39/25/22/3925220cca237f969f7ed9c4d44f4858.jpg',
+          profession: 'Сварщик',
+          hobbies: ['Путешествия', 'Литература', 'Фотография'],
+          image: 'https://i.pinimg.com/564x/6b/a3/fa/6ba3faf15160b9d6715510b49d510382.jpg',
           info: 'tancor'
         },
         {
-          profession: 'Садовник',
-          hobbies: ['Садоводство', 'Ботаника'],
-          image: 'https://i.pinimg.com/564x/af/21/21/af21211f8f7ac1001f5ab4a72a2f8be7.jpg',
+          profession: 'Финансист',
+          hobbies: ['Танцы', 'Музыка', 'Пение'],
+          image: 'https://i.pinimg.com/564x/f2/8c/af/f28caf2f35784ba3c17ce1bd90995d3f.jpg',
           info: 'sadov'
         },
         {
