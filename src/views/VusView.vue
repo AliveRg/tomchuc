@@ -119,7 +119,7 @@ export default {
           budPlase: '196 мест бюджет',
           platPlase: '157 мест платно',
           profession: ['Фотограф', 'Астроном', 'Спелеолог', 'Музыкант', 'Археолог', 'Повар'],
-          img: ' https://lh3.googleusercontent.com/proxy/DH2Bzze1zJrWUBWSZQNf0TbD-9J5YK8f8bXMveSRi4phQAqcYEXNL7Uy2FZkzdvBeJmBqV95z5G-TOn2_Dv_eqAoFHuCejAN1BzCABuB-BL1FqA'
+          img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Facade_of_the_BSICA.jpg/1200px-Facade_of_the_BSICA.jpg'
         },
         {
           name: 'Белгородский машиностроительный техникум',

@@ -168,97 +168,92 @@ export default {
           profession: 'Художник',
           hobbies: ['Рисование', 'Графика', 'Фотография', 'Театр'],
           image: 'https://i.pinimg.com/564x/81/d2/da/81d2da3cf88bf9fcc337e89f582cc600.jpg',
-          vus: ''
+          info: 'hyd'
         },
         {
           profession: 'Повар',
-          hobbies: ['Кулинария', 'Виноделие'],
+          hobbies: ['Кулинария', 'Садоводство', 'Виноделие'],
           image: 'https://i.pinimg.com/564x/19/8e/73/198e73da756eed4535a7b5d2515b2622.jpg',
-          vus: ''
+          info: 'povar'
         },
         {
           profession: 'Музыкант',
           hobbies: ['Музыка', 'Танцы', 'Пение'],
           image: 'https://i.pinimg.com/564x/25/11/89/2511891171a83c90bf9629d5ff01654c.jpg',
-          vus: ''
-        },
-        {
-          profession: 'Учитель',
-          hobbies: ['Футбол', 'Плавание', 'Фехтование', 'Бокс', 'Фризби'],
-          image: 'https://i.pinimg.com/564x/31/53/cf/3153cf93dfbafe04f788069ce706b9ef.jpg',
-          vus: ''
+          info: 'music'
         },
         {
           profession: 'Программист',
           hobbies: ['Путешествия', 'Туризм', 'Походы'],
           image: 'https://i.pinimg.com/564x/d6/c3/f8/d6c3f854c271e47d04cb8962058383c8.jpg',
-          vus: ''
+          info: 'putesh'
+        },
+        {
+          profession: 'Учитель',
+          hobbies: ['Футбол', 'Плавание', 'Фехтование', 'Бокс', 'Фризби'],
+          image: 'https://i.pinimg.com/564x/31/53/cf/3153cf93dfbafe04f788069ce706b9ef.jpg',
+          info: 'sport'
         },
         {
           profession: 'Юрист',
           hobbies: ['Литература', 'Поэзия'],
           image: 'https://i.pinimg.com/564x/d5/01/30/d50130a2552e7ca947f42800006360c6.jpg',
-          vus: ''
+          info: 'pisatel'
         },
         {
           profession: 'Дизайнер',
           hobbies: ['Графика', 'Рисование', 'Фотография'],
           image: 'https://i.pinimg.com/564x/9c/b7/04/9cb704ff4c74340cff8d147c5db97421.jpg',
-          vus: ''
+          info: 'disagner'
         },
         {
           profession: 'Актер',
           hobbies: ['Театр', 'Музыка', 'Танцы'],
           image: 'https://i.pinimg.com/564x/07/5a/46/075a464c8e4988ee8abf360f4a05e36d.jpg',
-          vus: ''
+          info: 'acter'
         },
         {
           profession: 'Астроном',
           hobbies: ['Астрономия', 'Фотография'],
           image: 'https://i.pinimg.com/564x/f5/2f/2a/f52f2aa722f6442d847f516d90efc0d7.jpg',
-          vus: ''
+          info: 'astronom'
         },
         {
           profession: 'Спелеолог',
           hobbies: ['Скалолазание', 'Походы', 'Путешествия'],
           image: 'https://i.pinimg.com/564x/0f/48/c2/0f48c271a96601a7c2769be8e39b5037.jpg',
-          vus: ''
+          info: 'slepolog'
         },
         {
           profession: 'Кладовщик',
           hobbies: ['Футбол', 'Плавание', 'Фехтование', 'Бокс', 'Танцы'],
           image: 'https://i.pinimg.com/564x/ba/ad/ab/baadab0a88204046f0f96d5eab312d71.jpg',
-          vus: ''
+          info: 'forogr'
         },
         {
           profession: 'Фотограф',
           hobbies: ['Фотография', 'Путешествия', 'Походы'],
           image: 'https://i.pinimg.com/564x/ee/69/18/ee6918aba213ae5b41f416acda602432.jpg',
-          vus: ''
+          info: 'forogr'
         },
+
         {
           profession: 'Сварщик',
           hobbies: ['Путешествия', 'Литература', 'Фотография'],
           image: 'https://i.pinimg.com/564x/6b/a3/fa/6ba3faf15160b9d6715510b49d510382.jpg',
-          vus: ''
+          info: 'putevod'
         },
         {
           profession: 'Финансист',
           hobbies: ['Танцы', 'Музыка', 'Пение'],
           image: 'https://i.pinimg.com/564x/f2/8c/af/f28caf2f35784ba3c17ce1bd90995d3f.jpg',
-          vus: ''
-        },
-        {
-          profession: 'Садовник',
-          hobbies: ['Садоводство', 'Ботаника'],
-          image: 'https://i.pinimg.com/564x/af/21/21/af21211f8f7ac1001f5ab4a72a2f8be7.jpg',
-          vus: ''
+          info: 'tancor'
         },
         {
           profession: 'Археолог',
           hobbies: ['Археология', 'Ботаника'],
           image: 'https://i.pinimg.com/564x/22/b1/5d/22b15ddaa7c6790706b4c534aed567f5.jpg',
-          vus: ''
+          info: 'arheolog'
         }
       ],
       selectedOptions: [],

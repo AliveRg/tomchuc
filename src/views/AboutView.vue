@@ -4,7 +4,6 @@ import acter from '../components/acter.vue'
 import arheolog from '../components/arheolog.vue'
 import astronom from '../components/astronom.vue'
 import disagner from '../components/disagner.vue'
-import fitsport from '../components/fitsport.vue'
 import forogr from '../components/forogr.vue'
 import music from '../components/music.vue'
 import pisatel from '../components/pisatel.vue'
@@ -67,13 +66,13 @@ export default {
           profession: 'Программист',
           hobbies: ['Путешествия', 'Туризм', 'Походы'],
           image: 'https://i.pinimg.com/564x/d6/c3/f8/d6c3f854c271e47d04cb8962058383c8.jpg',
-          info: 'sport'
+          info: 'putesh'
         },
         {
           profession: 'Учитель',
           hobbies: ['Футбол', 'Плавание', 'Фехтование', 'Бокс', 'Фризби'],
           image: 'https://i.pinimg.com/564x/31/53/cf/3153cf93dfbafe04f788069ce706b9ef.jpg',
-          info: 'putesh'
+          info: 'sport'
         },
         {
           profession: 'Юрист',
@@ -108,7 +107,8 @@ export default {
         {
           profession: 'Кладовщик',
           hobbies: ['Футбол', 'Плавание', 'Фехтование', 'Бокс', 'Танцы'],
-          image: 'https://i.pinimg.com/564x/ba/ad/ab/baadab0a88204046f0f96d5eab312d71.jpg'
+          image: 'https://i.pinimg.com/564x/ba/ad/ab/baadab0a88204046f0f96d5eab312d71.jpg',
+          info: 'forogr'
         },
         {
           profession: 'Фотограф',
@@ -116,23 +116,18 @@ export default {
           image: 'https://i.pinimg.com/564x/ee/69/18/ee6918aba213ae5b41f416acda602432.jpg',
           info: 'forogr'
         },
-        {
-          profession: 'Автор путеводителей',
-          hobbies: ['Путешествия', 'Литература', 'Фотография'],
-          image: 'https://i.pinimg.com/564x/5d/db/ee/5ddbee4be6ad60faf4b721d2dfa0cdc7.jpg',
-          info: 'putevod'
-        },
+
         {
           profession: 'Сварщик',
           hobbies: ['Путешествия', 'Литература', 'Фотография'],
           image: 'https://i.pinimg.com/564x/6b/a3/fa/6ba3faf15160b9d6715510b49d510382.jpg',
-          info: 'tancor'
+          info: 'putevod'
         },
         {
           profession: 'Финансист',
           hobbies: ['Танцы', 'Музыка', 'Пение'],
           image: 'https://i.pinimg.com/564x/f2/8c/af/f28caf2f35784ba3c17ce1bd90995d3f.jpg',
-          info: 'sadov'
+          info: 'tancor'
         },
         {
           profession: 'Археолог',
@@ -170,7 +165,6 @@ export default {
     astronom,
     disagner,
     disagner,
-    fitsport,
     forogr,
     music,
     pisatel,
