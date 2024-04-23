@@ -19,7 +19,7 @@ import { RouterLink, RouterView } from 'vue-router'
             src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg"
             class="w-full align-middle transition duration-300 ease-linear"
           />
-          <a href="#!">
+          <a href="https://navigatum.ru/">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]"
             >
